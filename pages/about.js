@@ -1,34 +1,98 @@
 import styles from '../styles/About.module.css'
 import Image from 'next/image'
-
+import Link from "next/link"
 
 export default function About() {
+
+    const skills = ['Java', 'Python', 'JavaScript', 'HTML5', 'CSS', 'MySQL', 'PostgreSQL', 'MongoDB', 'Node', 'Express', 'React']
+
+    const skillDisplay = skills.map((skill, i) =>{
+        return (
+            <div className='skill' key={i}>
+                        <div>
+                            <Image 
+                                src={`/${skill}.png`}
+                                alt={`${skill} logo`}
+                                width = {55}
+                                height = {50}
+                                className='image'
+                            />
+                        </div>
+                        <div>
+                            <h4>{skill}</h4>
+                        </div>
+            </div>
+        )
+    })
     return (
-        <div>
+        <div className='about'>
             <h1>About Me</h1>
+            <div className='profile'>
+                <div className='screenshot'>
+                <Image 
+                src='/Profile2.png'
+                alt='logo'
+                width={300}
+                height={300}
+                className='profile-pic'
+                />
+                </div>
 
-            <p className={styles.extraGreen}>I am Sean and I am a software engineer now</p>
+                <div className='description'>
+                    <p>I am an asipring software engieer with a background in biomaterial reasearch based in San Francisco Bay Area.</p>
+                    <p>I like to learn new things, collaborate with people, and solve problems.</p>
+                    <br></br>
+                    <br></br>
+                    <div className='icons'>
+                        <div className='resume'>
+                            <Link href='/'> 
+                                <Image 
+                                    src='/Resume2.png'
+                                    alt='resume'
+                                    width={50}
+                                    height={50}
+                                />
+                            </Link>
+                        </div>
+                        
+                        <div className='github'>
+                            <Link href='https://github.com/mousesaver'> 
+                                <Image 
+                                    src='/Github2.png'
+                                    alt='github'
+                                    width={50}
+                                    height={50}
+                                />
+                            </Link>
+                        </div>
+                        <div className='linkedin'>
+                            <Link href='https://www.linkedin.com/in/sean-f45/'> 
+                                <Image 
+                                    src='/LinkedIn.png'
+                                    alt='github'
+                                    width={50}
+                                    height={50}
+                                />
+                            </Link>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br></br>
+            <br></br>
+            <br></br>
+
+            <div className='skills-container'>
+                <h2>Skills</h2>
+                <div className='skills'>
+                    {skillDisplay}
+                    
+                </div>
+                
+            </div>
+            
             {/* load an image locally */}
-            <Image 
-                src='/IMG_9410.JPG'
-                alt='logo'
-                width={300}
-                height={500}
-            />
-            <img 
-                src='/IMG_9410.JPG'
-                alt='logo'
-                width={300}
-                height={500}
-            />
-
-            {/* load an image hosted on another domain */}
-            <Image 
-                src='https://placekitten.com/400/500'
-                alt='logo'
-                width={300}
-                height={500}
-            />
+            
         </div>
     )
 }

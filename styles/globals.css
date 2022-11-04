@@ -1,10 +1,9 @@
 html,
 body {
   padding: 0;
-  margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  background-color: darkgoldenrod;
+  background-color: rgb(243, 239, 233);
 }
 
 a {
@@ -25,4 +24,73 @@ a {
     color: white;
     background: black;
   }
+}
+.project {
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center
+}
+.projects {
+  margin: 5vh 10vw;
+
+}
+.description {
+  font-size: 18px;
+  width: 30vw;
+  text-align: left;
+}
+.screenshot {
+  width: 40vw;
+  text-align: center;
+}
+.icons {
+  width: 20vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center
+}
+.skills-container {
+  width: 80vw;
+  text-align: center;
+}
+.skills {
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center
+}
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center
+}
+.about {
+  margin: 5vh 10vw;
+  text-align: center
+}
+
+.profile {
+  width: 80vw;
+  display: flex;
+  flex-direction: row;
+  align-items: space-between
+}
+
+.profile-pic {
+  border-radius: 50%;
+}
+
+.contact {
+  margin: 30vh 20vw;
+  text-align: center;
+}
+
+.contactlogos {
+  margin: 5vh 20vw;
+  display: flex;
+  flex-direction: row;
+  align-items: center
 }

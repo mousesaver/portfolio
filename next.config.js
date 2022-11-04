@@ -4,7 +4,7 @@ const nextConfig = {
   swcMinify: true,
   images: {
     // supply an array of trusted image domains (np http:// or https://)
-    domains: ["github.com", 'raw.githubusercontent.com', "placekitten.com"]
+    domains: ["github.com", 'raw.githubusercontent.com', "https://i.imgur.com/Hmzo2zq.png"]
   }
 }
 
