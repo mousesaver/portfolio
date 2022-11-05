@@ -62,10 +62,10 @@ export default function Home() {
                   <div className='github'>
                       <a href='https://github.com/mousesaver'>
                               <Image 
-                                  src='/Github2.png'
+                                  src='/Github.png'
                                   alt='github'
-                                  width={50}
-                                  height={50}
+                                  width={70}
+                                  height={70}
                               />
                       </a>
                   </div>
