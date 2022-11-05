@@ -49,7 +49,7 @@ export default function Home() {
               <br></br>
               <div className='icons'>
                   <div className='resume'>
-                      <a href='https://drive.google.com/file/d/1HOGOBOsBPhMZqSC5M2Hl-YjL4FVf2ZiH/view?usp=share_link' target='_blank'> 
+                      <a href='https://drive.google.com/file/d/1HOGOBOsBPhMZqSC5M2Hl-YjL4FVf2ZiH/view?usp=share_link'> 
                           <Image 
                               src='/Resume2.png'
                               alt='resume'
@@ -60,7 +60,7 @@ export default function Home() {
                   </div>
                   
                   <div className='github'>
-                      <a href='https://github.com/mousesaver' target='_blank'>
+                      <a href='https://github.com/mousesaver'>
                               <Image 
                                   src='/Github2.png'
                                   alt='github'
@@ -70,7 +70,7 @@ export default function Home() {
                       </a>
                   </div>
                   <div className='linkedin'>
-                      <a href='https://www.linkedin.com/in/sean-f45/' target='_blank'> 
+                      <a href='https://www.linkedin.com/in/sean-f45/'> 
                           <Image 
                               src='/LinkedIn.png'
                               alt='github'
