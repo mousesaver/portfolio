@@ -7,14 +7,6 @@ export default function Projects() {
         <div className='projects'>
             <h1>Projects</h1> 
             <div className='project'>
-                <div className='description'>
-                    <h3>Dream Planner   <a href='https://github.com/mousesaver/dreamplanner-backend'><button>GitHub Repo</button></a></h3>
-                    <p>A vacation planning full-stack app that allows users to do CRUD operations on their profiles, destinations, and expenses.</p>
-                    <p>Front end was created by using React and Tailwind and CRUD operations with the backend were realized by employing Axios and React Router.</p>
-                    <p>Backend REST APIs were established by using Django, Rest framework, and PostgreSQL.</p>
-                    
-                </div>
-
                 <div className='screenshot'>
                 <Image 
                 src='/dreamplanner.png'
@@ -22,6 +14,13 @@ export default function Projects() {
                 width={500}
                 height={300}
                 />
+                </div>
+                <div className='description'>
+                    <h3>Dream Planner   <a href='https://github.com/mousesaver/dreamplanner-backend'><button>GitHub Repo</button></a></h3>
+                    <p>A vacation planning full-stack app that allows users to do CRUD operations on their profiles, destinations, and expenses.</p>
+                    <p>Front end was created by using React and Tailwind and CRUD operations with the backend were realized by employing Axios and React Router.</p>
+                    <p>Backend REST APIs were established by using Django, Rest framework, and PostgreSQL.</p>
+                    
                 </div>
             </div>
             <br></br>
@@ -38,8 +37,8 @@ export default function Projects() {
                 </div>
                 <div className='description'>
                     <h3>Petspace <a href='https://github.com/mousesaver/petspace-p3-server'><button>GitHub Repo</button></a></h3>
-                    <p>A full-stack social media platform for pet owners to share/like pet photos and comment on them</p>
-                    <p>Front-end was built by using React and Bootstrap and CRUD operations with the backend were enabled by employing Axios and React Router</p>
+                    <p>A full-stack social media platform for pet owners to share/like pet photos and comment on them.</p>
+                    <p>Front-end was built by using React and Bootstrap and CRUD operations with the backend were enabled by employing Axios and React Router.</p>
                     <p>Backend REST APIs were established by using Express, MongoDB, and Mongoose to dynamically respond to front-end requests.</p>
                     
                 </div>
@@ -48,14 +47,6 @@ export default function Projects() {
             <br></br>
             <br></br>
             <div className='project'>
-                <div className='description'>
-                    <h3>Movie Tracker  <a href='https://github.com/mousesaver/project-2'><button>GitHub Repo</button></a></h3>
-                    <p>A full-stack movie app that allows users to search movie info, track watched movies, add movies to watchlists, and add movie reviews</p>
-                    <p>Front-end was built by using EJS and Bootstrap and CRUD operations with the backend were enabled by employing Axios and React Router</p>
-                    <p>Backend REST APIs were constructed by using Express, Sequelize, and PostgreSQL to fulfill front-end requests.</p>
-                    
-                </div>
-
                 <div className='screenshot'>
                     <Image 
                     src='/Movietracker.png'
@@ -63,6 +54,13 @@ export default function Projects() {
                     width={500}
                     height={300}
                     />
+                </div>
+                <div className='description'>
+                    <h3>Movie Tracker  <a href='https://github.com/mousesaver/project-2'><button>GitHub Repo</button></a></h3>
+                    <p>A full-stack movie app that allows users to search movie info, track watched movies, add movies to watchlists, and add movie reviews.</p>
+                    <p>Front-end was built by using EJS and Bootstrap and CRUD operations with the backend were enabled by employing Axios and React Router.</p>
+                    <p>Backend REST APIs were constructed by using Express, Sequelize, and PostgreSQL to fulfill front-end requests.</p>
+                    
                 </div>
             </div>
             <br></br>

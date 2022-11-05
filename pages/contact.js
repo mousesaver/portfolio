@@ -5,7 +5,9 @@ import Image from 'next/image'
 export default function Contact() {
     return (
         <div className='contact'>
-            <h1>Contact Me</h1>
+            <div className='contacttitle'>
+                <h1>Contact Me</h1>
+            </div>
             <br></br>
             <div className='contactlogos'>
                 <div className='github'>
@@ -14,7 +16,7 @@ export default function Contact() {
                     </a>
                 </div>
                 <div className='email'>
-                    <a href='sean.fan87@gmail.com' target='_blank'>
+                    <a href='https://sean.fan87@gmail.com' target='_blank'>
                         <img src='/Email.png' alt='email icon' width={100}/>
                     </a>
                 </div>
