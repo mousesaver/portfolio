@@ -43,8 +43,8 @@ export default function Home() {
           </div>
 
           <div className='description'>
-              <p>My name is Sean and I am an asipring software engieer with a background in biomaterial reasearch. I currently live in the San Francisco Bay Area.</p>
-              <p>I like to learn new things, collaborate with people, and solve problems.</p>
+              <p>My name is Sean and I am an aspiring software engineer with a background in biomaterial research. I currently live in the San Francisco Bay Area.</p>
+              <p>I like learning new things, meeting new people, and coming up with new ideas.</p>
               <br></br>
               <br></br>
               <div className='icons'>
@@ -64,8 +64,8 @@ export default function Home() {
                               <Image 
                                   src='/icon.png'
                                   alt='github'
-                                  width={70}
-                                  height={70}
+                                  width={50}
+                                  height={50}
                               />
                       </a>
                   </div>

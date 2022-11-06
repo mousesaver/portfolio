@@ -12,7 +12,13 @@ export default function Contact() {
             <div className='contactlogos'>
                 <div className='github'>
                     <a href='https://github.com/mousesaver'>
-                        <img src='/Github.png' alt='github icon' width={90}/>
+                        <img src='/icon.png' alt='github icon' width={70}/>
+                    </a>
+                </div>
+                
+                <div className='email'>
+                    <a href='https://sean.fan87@gmail.com'>
+                        <img src='/Email.png' alt='email icon' width={100}/>
                     </a>
                 </div>
                 
@@ -22,11 +28,7 @@ export default function Contact() {
                     </a>
                 </div>
 
-                <div className='email'>
-                    <a href='https://sean.fan87@gmail.com'>
-                        <img src='/Email.png' alt='email icon' width={100}/>
-                    </a>
-                </div>
+                
             </div>
         </div>
     )
